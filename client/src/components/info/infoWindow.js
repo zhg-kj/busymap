@@ -67,7 +67,7 @@ class InfoWindow extends Component {
                       </div>
                       <div className='time'>
                         <Textfit mode='single'>
-                          <h1>Last updated today at {this.props.time} PST.</h1>
+                          <h1>Last updated today at {this.props.time} UTC.</h1>
                         </Textfit>
                       </div>
                     </div>
