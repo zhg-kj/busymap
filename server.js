@@ -12,7 +12,7 @@ const webscraper = require('./webscraper.js');
 const NodeGeocoder = require('node-geocoder');
 const options = {
   provider: 'google',
-  apiKey: 'AIzaSyAd6Tpl9TqVdyUKBZoNhmVwv4Aym20Bj34'
+  apiKey: 'AIzaSyBUwfbT6G9JneYhf8-oUo2u5GAktEVD9JU'
 };
 const geocoder = NodeGeocoder(options);
 

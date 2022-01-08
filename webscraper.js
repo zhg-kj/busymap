@@ -29,11 +29,11 @@ async function sendRequest(url) {
 module.exports = async function getPopularTimes(placeId) {
   const data = await sendRequest(getUrl(placeId));
   const body = new JSDOM(data);
-  const days = body.window.document.getElementsByClassName('section-popular-times-graph');
+  const days = body.window.document.getElementsByClassName('O9Q0Ff-NmME3c-Utye1-haAclf');
   let busyness;
   let i = 0;
   for (let day of days) {
-    const hours = day.getElementsByClassName('section-popular-times-bar');
+    const hours = day.getElementsByClassName('O9Q0Ff-NmME3c-Utye1-ZMv3u');
     let j = 0;
     for (let hour of hours) {
       let hr = hour.getAttribute('aria-label');
